@@ -1,3 +1,7 @@
+
+// This is just the beginning, although the code isn't very well linked to the concepts, but I will learn until I can write real, meaningful code.
+
+
 package main
 
 import "fmt"
