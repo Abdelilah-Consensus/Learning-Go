@@ -15,7 +15,7 @@ func main() {
 
 fmt.Println("Block Height :", blockHeight)
 fmt.Println("Network Monitoring :", peerCount)
-fmt.Println("Double Signing :", isProposer)
+fmt.Println("Double Signing :", hasDoubleSign)
 fmt.Println("Block Density :", blockDensity)
 
 }
