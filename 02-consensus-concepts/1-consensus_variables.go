@@ -4,18 +4,18 @@ import "fmt"
 
 // Defining variables at the general level (Global scope) | zero value
 
-var blockHeight int
-var currentTerm int
-var isProposer string
-var voteCount uint64
+var blockHeight uint64 
+var peerCount int    // Network Monitoring 
+var hasDoubleSign bool
+var blockDensity uint64
 
 func main() {
 
 // Printing variables on lines
 
 fmt.Println("Block Height :", blockHeight)
-fmt.Println("Current Term :", currentTerm)
-fmt.Println("Is Proposer :", isProposer)
-fmt.Println("Vote Count :", voteCount)
+fmt.Println("Network Monitoring :", peerCount)
+fmt.Println("Double Signing :", isProposer)
+fmt.Println("Block Density :", blockDensity)
 
 }
