@@ -25,9 +25,26 @@ I'm taking a **targeted approach** to learning:
   - 48 Intermediate concepts  
   - 46 Advanced fundamentals
 
-### Go Programming
-- Learning Go **pragmatically** - focusing on what's essential for consensus layer development
-- Implementing types, structs, and patterns specific to blockchain systems
+#### 🟢 Go Programming (Consensus-Focused Path)
+I am mastering Go by focusing on the essentials required for distributed systems and consensus logic.
+
+**Phase 1: Absolute Fundamentals**
+- [x] **Syntax & Basic Types** (Applied in: `01-go-basics/`)
+- [x] **Variable Declarations (var, :=)** (Applied in: `consensus-concepts_02/consensus_variables.go_01`)
+- [ ] **Constants & Operators** (Next)
+- [ ] **Control Flow (if, for, switch)** (Next)
+- [ ] **Functions & Multiple Returns** (Next)
+
+**Phase 2: Data Structures & Structs**
+- [ ] **Slices & Maps** (The backbone of blockchain state)
+- [ ] **Structs & Methods** (Defining Block and Validator types)
+- [ ] **Interfaces** (Basics for consensus rules)
+- [ ] **Error Handling** (The `if err != nil` pattern)
+
+**Phase 3: Concurrency & System Tools**
+- [ ] **Goroutines & Channels** (Parallel processing of blocks)
+- [ ] **JSON & File I/O** (Encoding blocks and Genesis files)
+
 
 ## 💡 Philosophy
 
